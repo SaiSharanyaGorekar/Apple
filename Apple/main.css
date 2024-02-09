@@ -1,0 +1,339 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+}
+:root{
+    --text-color:rgba(255,255,255,.8);
+    --bg-color:rgba(0,0,0,.8);
+    --text-heading:#0071E3;
+    --text-heading11:#1d1d1f;
+
+}
+#nav{
+    /* border: 2px solid; */
+    height: 50px;
+    background-color: var(--text-heading11);
+}
+#sub-nav{
+    /* border: 2px solid brown; */
+    height: inherit;
+    width: 75%;
+    margin: auto;
+}
+#sub-nav ol{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--text-color);
+    fill: var(--text-color);
+}
+#main{
+    border: 2px solid;
+    height: 620px;
+    background-image:url(./assets/hero_iphone15pro__i70z9oz3hj2i_large_2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#head{
+    width: 600px;
+    margin-top: 100px;
+     margin-left: 400px;
+}
+#head h2 a{
+    margin-left: 50px;
+text-decoration: none;
+font-size: 60px;
+font-weight: bold;
+color: var(--text-color);
+}
+#head h3 a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: normal;
+    color: var(--text-color);
+    margin-left:0px;
+    
+   
+}
+#lb a{
+    font-weight: lighter;
+font-size: 20px;
+color: var(--text-heading);
+margin-left: 70px;
+text-decoration: none;
+}
+#lb a:hover{
+    text-decoration-line: underline;
+
+}
+#sub-main{
+    
+        border: 2px solid white;
+        height: 620px;
+        background-image:url(./assets/hero_iphone15_announce__uuemlcwczn6u_large_2x.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+}
+#head #heading2 a{
+color: var(--text-heading11);
+}
+#head #caption2 a{
+    color: var(--text-heading11);
+}
+#main3{
+    /* border: 2px solid; */
+    width: 100%;
+    position: absolute;
+    /* height: 100px; */
+    display: flex;
+    flex-wrap: wrap;
+    top: 1600px;
+}
+#main3 img{
+    width: 190px;
+    height: 70px;
+    margin-top: 73px;
+    margin-left:500px;
+    fill: white;
+}
+/* #main3 h1{
+    color: white;
+    margin-top: 100px;
+    margin-left: -10px; */
+
+#sub-main3{
+    /* border: 2px solid; */
+    width: 600px;
+    height: 200px;
+    position: absolute;
+    top: 1750px;
+    left: 320px;
+}
+#sub-main3 p{
+    margin-left: 250px;
+    font-size: 17px;
+    font-weight: lighter;
+    color: white;
+}
+#sub-main3 h2{
+    width: 1000px;
+    margin-left: 10px;
+    font-size: 28px;
+    font-weight: 400;
+    color: white;
+}
+#sub-main3 button{
+    border-radius: 30px;
+    background-color: white;
+    width: 140px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left:100px;
+    border-color: white;
+}
+#sub-main3 button+button{
+    border-radius: 30px;
+    background-color: white;
+    width: 100px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 70px;
+    border: white;
+}
+table{
+    width: 100%;
+    height: 900px;
+    margin-left: 20px;
+
+}
+/* table tr img{
+    width: 500px;
+    height: 500px;
+} */
+#image1head{
+    position: absolute;
+    top: 2050px;
+    left: 240px;
+}
+#image1head p{
+    font-size: 20px;
+}
+#image1head a{
+   margin-left: 5px;
+   text-decoration: none;
+   font-size: 18px;
+   color: var(--text-heading);
+}
+#image1head a:hover{
+    text-decoration-line: underline;
+}
+#image2head{
+    position: absolute;
+     top: 2070px;
+    left: 850px;
+}
+#image2head h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+#image2head p{
+    font-size: 25px;
+}
+#image2head a{
+   margin-left: 30px;
+   text-decoration: none;
+   font-size: 18px;
+   color: var(--text-heading);
+}
+#image2head a:hover{
+    text-decoration-line: underline;
+}
+#image3head{
+    position: absolute;
+     top: 2680px;
+    left: 200px;
+}
+#image3head h1{
+    margin-left: 100px;
+    font-size: 35px;
+    font-weight: bold;
+}
+#image3head p{
+margin-left: 30px;
+    font-size: 20px;
+    
+}
+#image3head a{
+   margin-left: 40px;
+   text-decoration: none;
+   font-size: 18px;
+   color: var(--text-heading);
+}
+#image3head a:hover{
+    text-decoration-line: underline;
+}
+#image4head{
+    position: absolute;
+     top: 2680px;
+    left: 800px;
+}
+#image4head h1{
+    color: white;
+    margin-left: 50px;
+    font-size: 35px;
+    font-weight: bold;
+}
+#image4head p{
+margin-left: 15px;
+    font-size: 20px;
+    color: white;
+}
+#image4head a{
+   margin-left: 40px;
+   text-decoration: none;
+   font-size: 18px;
+   color: var(--text-heading);
+}
+#image4head a:hover{
+    text-decoration-line: underline;
+}
+#image5head{
+    position: absolute;
+     top: 3200px;
+    left: 180px;
+}
+#image5head h1{
+    margin-left: 50px;
+    font-size: 35px;
+    font-weight: bold;
+}
+#image5head a{
+   margin-left: 59px;
+   text-decoration: none;
+   font-size: 18px;
+   color: var(--text-heading);
+}
+#image5head a:hover{
+    text-decoration-line: underline;
+}
+#image6head{
+    position: absolute;
+    top: 3200px;
+    left: 800px;
+}
+#image6head img{
+    margin-left: 50px;
+}
+#image6head p{
+    font-size: 20px;
+    margin-left: 5px;
+}
+#image6head a{
+   margin-left:30px;
+   text-decoration: none;
+   font-size: 16px;
+   color: var(--text-heading);
+}
+#image6head a:hover{
+    text-decoration-line: underline;
+}
+#footer{
+    width: 100%;
+    height: 850px;
+    background-color: rgb(245, 245, 247);
+}
+#footpara{
+    width: 85%;
+    margin: auto;
+}
+#footpara p{
+    font-size: 13px;
+    color: gray;
+}
+#footlist {
+    line-height:2;
+    color: grey;
+    font-size: 12px;
+    width: 85%;
+    margin: auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+#links p{
+    color: rgb(153, 150, 150);
+    width: 85%;
+    margin: auto;
+font-size: 13px;
+}
+#links p a{
+    color: #0071E3;
+}
+#copyright{
+    width: 800px;
+    color: rgb(141, 137, 137);
+    font-size: 13px;
+    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#copyright a{
+    color: rgb(163, 160, 160);
+    text-decoration: none;
+}
+#india{
+    color: rgb(158, 155, 155);
+    font-size:13px ;
+    margin-left: 1100px;
+    margin-top:-15px;
+}
